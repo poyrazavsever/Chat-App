@@ -1,10 +1,17 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import {useState} from "react"
 
 export default function Home() {
+
+  const [username,setUsername] = useState('username');
+  const [messages, setMessages] = useState([]);
+
   return (
-    <></>
-  )
+    <div>
+
+      <div></div>
+
+      <div></div>
+
+    </div>
+  );
 }
