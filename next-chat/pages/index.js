@@ -65,8 +65,13 @@ export default function Home() {
         </div>
 
         <form onSubmit={submit} className="flex flex-col items-start gap-2 pt-12">
-          <label htmlFor="name" className="text-neutral-900 text-xs font-semibold uppercase tracking-widest">Your Message</label>
-          <textarea type="text" placeholder="write a message" className="w-full h-96 px-4 py-6 bg-neutral-950 opacity-80 focus:outline-none border-neutral-950 placeholder:text-sm placeholder:tracking-wide placeholder:text-zinc-500 text-white" value={message} onChange={e => setMessage(e.target.value)}/>
+            <label htmlFor="name" className="text-neutral-900 text-xs font-semibold uppercase tracking-widest">Your Message</label>
+            
+            <textarea type="text" placeholder="write a message" className="w-full h-96 px-4 py-6 bg-neutral-950 opacity-80 focus:outline-none border-neutral-950 placeholder:text-sm placeholder:tracking-wide placeholder:text-zinc-500 text-white" value={message} onChange={e => setMessage(e.target.value)}/>
+
+
+            <button type="submit" className="text-white text-lg font-medium bg-neutral-800 w-full py-4 hover:bg-neutral-600 transition-all">Send</button>
+          
 
         </form>
 
