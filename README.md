@@ -2,7 +2,7 @@
 
 Welcome to the Real-Time Chat Application! This app is built using cutting-edge technologies like **Next.js**, **Node.js**, **Tailwind CSS**, and **Pusher-js** to deliver a seamless and instant messaging experience.
 
-![Chat App Screenshot]([path-to-screenshot.png](https://raw.githubusercontent.com/poyrazavsever/Chat-App/master/next-chat/styles/readmegif.gif))
+![Chat App Screenshot](https://raw.githubusercontent.com/poyrazavsever/Chat-App/master/next-chat/styles/readmegif.gif)
 
 ## ✨ Features
 
